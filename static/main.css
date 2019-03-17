@@ -5,11 +5,13 @@ Dark Gray: #727272;
 */
 /* GENERAL STYLES
 ================================================ */
+html { font-size: 62.5%; }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sansita', sans-serif;
     font-weight: 300;
     overflow-x: hidden;
+    font-size: 1.6rem;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
@@ -30,8 +32,8 @@ h3 {
     color: #111;
 }
 p {
-    font-size: 15px;
     color: #727272;
+    font-size: 1.6em;
     line-height: 1.5em;
     font-weight: 400;
 }
@@ -51,6 +53,11 @@ a:hover {
 .section {
     padding: 75px 0;
 }
+
+.section h2{
+    letter-spacing: 1px;
+}
+
 .section-title {
     margin-bottom: 50px;
     padding-bottom: 20px;
@@ -65,7 +72,7 @@ a:hover {
     color: #5F5F5F;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 1.6rem;
     -webkit-transition: background-color .3s ease;
     -moz-transition: background-color .3s ease;
     -o-transition: background-color .3s ease;
@@ -106,6 +113,7 @@ a:hover {
     max-width: 220px;
 }
 .navbar-default .navbar-nav>li>a {
+    font-size: 1.7rem;
     color: #949494;
     margin-right: 8px;
 }
@@ -130,14 +138,14 @@ a:hover {
     text-align: center;
 }
 .home-content h1 {
-    padding: 30px;
+    padding: 35px 80px;
     display: inline-block;
     border: 3px solid #fff;
     text-transform: capitalize;
     font-weight: 200;
 }
 .home-content p {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 200;
     color: #fff;
     letter-spacing: .3px;
@@ -168,6 +176,7 @@ a:hover {
 }
 
 #services .single-service p{
+    font-size: 1.7rem;
     margin: 0;
 }
 
@@ -190,9 +199,9 @@ a:hover {
  ================================================ */
 
 #payment-methods {
-    background-color: #f8f8f8;
-    border-top: 1px solid #efefef;
-    border-bottom: 1px solid #efefef;
+  background-color: #f8f8f8;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
 }
 
 #payment-methods .payment-method-item {
@@ -203,13 +212,13 @@ a:hover {
 
 #payment-methods .payment-method-item p{
   margin: 20px 0;
-  font-size: 17px;
+  font-size: 2rem;
 }
 
 /* CONTACT US
  ================================================ */
 #contact p {
-    font-size: 17px;
+    font-size: 2rem;
 }
 .contact-info {
     margin-top: 30px;
