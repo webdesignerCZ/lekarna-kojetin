@@ -153,12 +153,14 @@ a:hover {
 }
 .home-content .call-to-action {
     border-radius: 50px;
-    background: #d4ae69;
+    /* background: #d4ae69; */
+    /* color: #222; */
+    color: #fff;
+    background-color: #31a42e;
     letter-spacing: 1px;
-    color: #222;
 }
 .home-content .call-to-action:hover {
-    background: #fff;
+    background-color: #21711f;
     cursor: pointer;
 }
 .home-feature {}
