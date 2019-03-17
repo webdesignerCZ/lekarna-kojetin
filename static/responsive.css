@@ -30,6 +30,7 @@
 
 
 @media (max-width: 767px) {
+
     .home-content {
         text-align: center;
     }
@@ -37,6 +38,11 @@
     .home-content h1 {
         padding: 30px;
     }
+
+    #services div[itemprop="department"]:nth-child(1) {
+      margin-bottom: 140px;
+    }
+    
     .service-content {
         margin-left: 0px;
         margin-top: -17px;

@@ -134,7 +134,6 @@ a:hover {
 .home-content {
     color: #fff;
     padding-top: 0px;
-    text-align: center;
 }
 .home-content h1 {
     padding: 35px 80px;
@@ -183,9 +182,7 @@ a:hover {
     margin: 0;
 }
 
-#services .single-service:nth-child(even) {
-    margin-bottom: 80px;
-}
+
 
 #services .service-title {
     color: #d4ae69;
@@ -208,7 +205,6 @@ a:hover {
 }
 
 #payment-methods .payment-method-item {
-  text-align: center;
   color: #d4ae69;
   margin: 30px;
 }
