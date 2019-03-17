@@ -84,7 +84,7 @@ a:hover {
     border-color: #454545;
 }
 .overlay {
-    background: rgba(48, 74, 57, 0.9);
+    background: rgba(25, 44, 31, 0.9);
 }
 .table {
     margin-top: 20px;
@@ -103,23 +103,22 @@ a:hover {
 
 .navbar-default {
     background: #fff;
-    border-color: transparent;
-    padding: 10px 0;
+    border-color: #e0e0e0;
     -moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
 }
 .navbar-brand {
-    padding: 5px 15px;
+    padding: 15px 15px;
     max-width: 220px;
 }
 .navbar-default .navbar-nav>li>a {
     font-size: 1.7rem;
     color: #949494;
     margin-right: 8px;
+    border-bottom: 3px solid transparent;
 }
-.navbar-default .navbar-nav>li>a:hover {
-    color: #2c2c53;
-}
+
+
 /* HEADER
 ================================================ */
 
@@ -150,15 +149,17 @@ a:hover {
     color: #fff;
     letter-spacing: .3px;
     line-height: 1.7em;
-    margin: 30px 0;
+    margin: 30px 0 60px 0;
 }
 .home-content .call-to-action {
-    background: #fff;
+    border-radius: 50px;
+    background: #d4ae69;
+    letter-spacing: 1px;
     color: #222;
 }
 .home-content .call-to-action:hover {
-    background: #dbdbdb;
-    color: #222;
+    background: #fff;
+    cursor: pointer;
 }
 .home-feature {}
 /* SERVICES
@@ -200,8 +201,8 @@ a:hover {
 
 #payment-methods {
   background-color: #f8f8f8;
-  border-top: 1px solid #efefef;
-  border-bottom: 1px solid #efefef;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 #payment-methods .payment-method-item {
