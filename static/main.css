@@ -84,7 +84,7 @@ a:hover {
     border-color: #454545;
 }
 .overlay {
-    background: rgba(25, 44, 31, 0.9);
+    background: rgba(33, 25, 44, 0.9);
 }
 .table {
     margin-top: 20px;
@@ -143,12 +143,12 @@ a:hover {
     font-weight: 200;
 }
 .home-content p {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 200;
     color: #fff;
     letter-spacing: .3px;
     line-height: 1.7em;
-    margin: 30px 0 60px 0;
+    margin: 25px 0 60px 0;
 }
 .home-content .call-to-action {
     border-radius: 50px;
