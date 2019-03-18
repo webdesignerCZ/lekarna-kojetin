@@ -191,7 +191,7 @@ a:hover {
 }
 
 #services .opening-hours {
-  padding: 2px;
+    padding: 2px;
 }
 /* PAYMENT METHODS
  ================================================ */
@@ -233,6 +233,12 @@ a:hover {
 
 #contact-map.section{
     padding: 0;
+}
+
+#contact-map .card{
+  border-radius: 0;
+  border: 1px solid #e0e0e0;
+  width: 500px;
 }
 /* FOOTER
 ================================================ */

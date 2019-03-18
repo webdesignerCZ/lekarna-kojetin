@@ -133,7 +133,7 @@
 
                             <p itemprop="addressLocality">6. května 1376, Kojetín</p>
                             <p>T: <span itemprop="telephone" content="+420581761759">581 761 759</span></p>
-                            <a href="https://mapy.cz/s/3pONv" title="Najdete nás na Náměstí T. G. M." target="_blank"><i class="fa fa-arrow-right"></i> odkaz na mapy.cz</a>
+                            <a href="https://mapy.cz/s/3pONv" title="Lékárna na ulici 6. května" target="_blank"><i class="fa fa-arrow-right"></i> odkaz na mapy.cz</a>
                         </address>
                     </div>
                     <div class="single-service text-left wow fadeInRight animated" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">
@@ -168,7 +168,7 @@
 
                             <p itemprop="addressLocality">Masarykovo náměstí 18, Kojetín</p>
                             <p>T: <span itemprop="telephone" content="+420581762251">581 762 251</span></p>
-                            <a href="https://mapy.cz/s/3pONJ" title="Najdete nás na Masarykově náměstí" target="_blank"><i class="fa fa-arrow-right"></i> odkaz na mapy.cz</a>
+                            <a href="https://mapy.cz/s/3pONJ" title="Lékárna na Masarykově náměstí" target="_blank"><i class="fa fa-arrow-right"></i> odkaz na mapy.cz</a>
                         </address>
                     </div>
                     <div class="single-service text-left wow fadeInRight animated" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">
@@ -285,15 +285,17 @@
 
                   var cardUZlatehoLva = new SMap.Card();
                   cardUZlatehoLva.getHeader().innerHTML = "<strong>Lékárna U zlatého lva</strong>";
-                  cardUZlatehoLva.getBody().innerHTML = "6. května 1376, Kojetín";
+                  cardUZlatehoLva.getBody().innerHTML = '<span>6. května 1376, Kojetín</span><br><a href="https://mapy.cz/s/3pONv" title="Lékárna na Masarykově náměstí" target="_blank"><i class="fa fa-arrow-right"></i> odkaz na mapy.cz</a>';
 
                   var cardURadnice = new SMap.Card();
                   cardURadnice.getHeader().innerHTML = "<strong>Lékárna U Radnice</strong>";
-                  cardURadnice.getBody().innerHTML = "Masarykovo náměstí 18, Kojetín";
+                  cardURadnice.getBody().innerHTML = '<span>Masarykovo náměstí 18, Kojetín</span><br><a href="https://mapy.cz/s/3pONJ" title="Lékárna na Masarykově náměstí" target="_blank"><i class="fa fa-arrow-right"></i> odkaz na mapy.cz</a>';
+
 
                   var optionsUZlatehoLva = {title: "Lékárna U zlatého lva"};
                   var coordsUZlatehoLva = SMap.Coords.fromWGS84(17.3021559, 49.3481696)
                   var markerUZlatehoLva = new SMap.Marker(coordsUZlatehoLva, "myMarker", optionsUZlatehoLva);
+                  markerUZlatehoLva.setURL("./static/map-marker.png");
                   markerUZlatehoLva.decorate(SMap.Marker.Feature.Card, cardUZlatehoLva);
                   layerMarkers.addMarker(markerUZlatehoLva);
 
