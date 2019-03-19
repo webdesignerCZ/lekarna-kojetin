@@ -136,9 +136,10 @@ a:hover {
     padding-top: 0px;
 }
 .home-content h1 {
-    padding: 35px 80px;
+    padding: 20px 40px;
     display: inline-block;
-    border: 3px solid #fff;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 0;
     text-transform: capitalize;
     font-weight: 200;
 }
@@ -148,7 +149,7 @@ a:hover {
     color: #fff;
     letter-spacing: .3px;
     line-height: 1.7em;
-    margin: 25px 0 60px 0;
+    margin: 0 0 60px 0;
 }
 .home-content .call-to-action {
     border-radius: 50px;

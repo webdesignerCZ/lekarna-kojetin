@@ -40,7 +40,7 @@
     }
 
     #home-area .home-content h1 {
-        padding: 18px;
+        padding: 10px;
     }
 
     #home-area .home-content p {
@@ -85,6 +85,11 @@
         float: left;
         width: 100%;
     }
+
+    .section-title {
+        padding-bottom: 10px;
+    }
+
     #newsletter input[type="email"] {
         font-size: 16px;
     }
