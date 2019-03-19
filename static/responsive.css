@@ -31,15 +31,19 @@
 
 @media (max-width: 767px) {
 
-    .home-content {
+    #home-area .container {
+      padding-top: 100px;
+    }
+
+    #home-area .home-content {
         text-align: center;
     }
 
-    .home-content h1 {
+    #home-area .home-content h1 {
         padding: 30px;
     }
 
-    .home-content p {
+    #home-area .home-content p {
         font-size: 2rem;
     }
 
