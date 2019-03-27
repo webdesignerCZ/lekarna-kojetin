@@ -174,11 +174,11 @@ a:hover {
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 1.4rem;
     color: #fff;
-    background-color: #00c853;
+    background-color: #00b248;
     letter-spacing: 1px;
 }
 #home-area .home-content .call-to-action:hover {
-    background-color: #00b248;
+    background-color: #00c853;
     cursor: pointer;
 }
 /* SERVICES
