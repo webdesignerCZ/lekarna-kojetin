@@ -121,11 +121,11 @@ a:hover {
 }
 
 .navbar-brand span.logo-text {
-  line-height: 35px;
+  line-height: 32px;
   font-family: 'Sansita', Arial, sans-serif;
-  padding-left: 43px;
+  padding-left: 40px;
   background-image: url('./img/favicon/apple-icon-76x76.png');
-  background-size: 38px 38px;
+  background-size: 34px 34px;
   display: inline-block;
   background-repeat: no-repeat;
 }
