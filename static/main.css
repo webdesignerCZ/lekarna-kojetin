@@ -51,6 +51,7 @@ a:hover {
     transition: background-color .3s ease;
     color: #2c2c53;
 }
+
 .section {
     padding: 75px 0;
 }
@@ -130,7 +131,6 @@ a:hover {
     margin-right: 8px;
     border-bottom: 3px solid transparent;
 }
-
 
 /* HEADER
 ================================================ */
