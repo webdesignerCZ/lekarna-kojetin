@@ -10,7 +10,7 @@
 @media (min-width: 767px) {
   .navbar-default .navbar-nav>li.active>a{
       background-color: transparent;
-      border-bottom: 3px solid #d4ae69;
+      border-bottom: 3px solid #00c853;
   }
 
   .navbar-default .navbar-nav>li.active>a:hover{
@@ -24,7 +24,7 @@
   .navbar-default .navbar-nav>li>a:hover {
       background-color: transparent;
       color: #2c2c53;
-      border-bottom: 3px solid #d4ae69;
+      border-bottom: 3px solid #00c853;
   }
 }
 

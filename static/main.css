@@ -1,14 +1,16 @@
-/* BLUE: #24C0D9;
-BLACK: #5E5865;
-Gray: #666;
-Dark Gray: #727272;
-*/
+/* COLORS
+primary = #00c853
+primary dark = #00b248
+priamry light = #66ffa6
+
+line = #e0e0e0
+text = #727272
+ */
 /* GENERAL STYLES
 ================================================ */
-html { font-size: 62.5%; }
 
 body {
-    font-family: 'Sansita', sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 300;
     overflow-x: hidden;
     font-size: 1.6rem;
@@ -39,7 +41,6 @@ p {
 }
 a {
     font-size: 15px;
-    color: #d4ae69;
     font-weight: 400;
     letter-spacing: .3px;
 }
@@ -58,12 +59,16 @@ a:hover {
     letter-spacing: 1px;
 }
 
-.section-title {
-    margin-bottom: 50px;
-    padding-bottom: 20px;
+.section .section-title {
     display: inline-block;
-    border-bottom: 1px solid #d4ae69;
+    margin-bottom: 50px;
 }
+
+.section hr.section-title-divider {
+    max-width: 70%;
+    border-top: 1px solid #e0e0e0;
+}
+
 .button {
     border: none;
     padding: 12px 25px;
@@ -84,7 +89,7 @@ a:hover {
     border-color: #454545;
 }
 .overlay {
-    background: rgba(33, 25, 44, 0.9);
+    background: rgba(11, 11, 11, 0.81);
 }
 .table {
     margin-top: 20px;
@@ -104,15 +109,23 @@ a:hover {
 .navbar-default {
     background: #fff;
     border-color: #e0e0e0;
+
     -moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
 }
 .navbar-brand {
-    padding: 15px 15px;
+    padding: 10px 15px;
     max-width: 220px;
+    color: #00c853;
 }
+
+.navbar-brand i {
+    color: #00c853;
+}
+
 .navbar-default .navbar-nav>li>a {
     font-size: 1.7rem;
+    padding-top: 18px;
     color: #949494;
     margin-right: 8px;
     border-bottom: 3px solid transparent;
@@ -123,27 +136,32 @@ a:hover {
 ================================================ */
 
 #home-area {
-    background: url(section-hero-bg-flowers.jpg) no-repeat;
+    background: url(./img/section-hero-bg-flowers.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: cover;
 }
+
 #home-area .container {
     padding-top: 150px;
     padding-bottom: 65px;
 }
-.home-content {
+
+#home-area .home-content {
     color: #fff;
     padding-top: 0px;
 }
-.home-content h1 {
+
+#home-area .home-content h1 {
     padding: 20px 40px;
     display: inline-block;
     border-bottom: 2px solid #fff;
     margin-bottom: 0;
     text-transform: capitalize;
     font-weight: 200;
+    font-family: 'Sansita', Arial, sans-serif;
 }
-.home-content p {
+
+#home-area .home-content p {
     font-size: 3rem;
     font-weight: 200;
     color: #fff;
@@ -151,29 +169,31 @@ a:hover {
     line-height: 1.7em;
     margin: 0 0 60px 0;
 }
-.home-content .call-to-action {
+#home-area .home-content .call-to-action {
     border-radius: 50px;
-    font-family: sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     font-size: 1.4rem;
-    /* background: #d4ae69; */
-    /* color: #222; */
     color: #fff;
-    background-color: #31a42e;
+    background-color: #00c853;
     letter-spacing: 1px;
 }
-.home-content .call-to-action:hover {
-    background-color: #21711f;
+#home-area .home-content .call-to-action:hover {
+    background-color: #00b248;
     cursor: pointer;
 }
-.home-feature {}
 /* SERVICES
 ================================================ */
 
 #services {
     background-color: #fff;
 }
+
+#services a {
+  color: #00c853;
+}
+
 #services a:hover {
-    color: #2c2c53;
+    color: #00b248;
     text-decoration: underline;
 }
 #services .single-service {
@@ -186,7 +206,7 @@ a:hover {
 }
 
 #services .service-title {
-    color: #d4ae69;
+    color: #00c853;
 }
 #services .service-content {
     margin-left: 65px;
@@ -206,7 +226,7 @@ a:hover {
 }
 
 #payment-methods .payment-method-item {
-  color: #d4ae69;
+  color: #00c853;
   margin: 30px;
 }
 
@@ -220,14 +240,25 @@ a:hover {
 #contact p {
     font-size: 2rem;
 }
-.contact-info {
+
+#contact a {
+  color: #00c853;
+  font-size: 2rem;
+}
+
+#contact a:hover {
+    color: #00b248;
+    text-decoration: underline;
+}
+
+#contact .contact-info {
     margin-top: 30px;
 }
-.contact-info span {
-    color: #d4ae69;
+#contact .contact-info span {
+    color: #00c853;
     margin-right: 10px;
 }
-.contact-info span.color-primary {
+#contact .contact-info span.color-primary {
     color: #333;
 }
 
@@ -241,6 +272,15 @@ a:hover {
 #contact-map .card{
   border-radius: 0;
   border: 1px solid #e0e0e0;
+}
+
+#contact-map .card a {
+  color: #00c853;
+}
+
+#contact-map .card a:hover {
+  color: #00b248;
+  text-decoration: underline;
 }
 /* FOOTER
 ================================================ */
