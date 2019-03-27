@@ -120,6 +120,16 @@ a:hover {
     color: #00c853;
 }
 
+.navbar-brand span.logo-text {
+  line-height: 35px;
+  font-family: 'Sansita', Arial, sans-serif;
+  padding-left: 43px;
+  background-image: url('./img/favicon/apple-icon-76x76.png');
+  background-size: 38px 38px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
 .navbar-brand i {
     color: #00c853;
 }
