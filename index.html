@@ -12,19 +12,18 @@
     <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="apple-touch-icon" sizes="60x60" href="./static/img/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./static/img/favicon/apple-icon-76x76.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./static/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./static/img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./static/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
 
-    <link rel="stylesheet" href="./static/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="./static/animate.css">
-    <link rel="stylesheet" href="./static/main.css">
-    <link rel="stylesheet" href="./static/responsive.css">
-    <script async="" src="./static/analytics.js"></script>
-    <script src="./static/modernizr-2.6.2.min.js"></script>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="./js/modernizr-2.6.2.min.js"></script>
     <script src="https://api.mapy.cz/loader.js"></script>
 	  <script>Loader.load()</script>
 
@@ -291,14 +290,14 @@
                   var optionsUZlatehoLva = {title: "Lékárna U zlatého lva"};
                   var coordsUZlatehoLva = SMap.Coords.fromWGS84(17.3021559, 49.3481696)
                   var markerUZlatehoLva = new SMap.Marker(coordsUZlatehoLva, "myMarker", optionsUZlatehoLva);
-                  markerUZlatehoLva.setURL("./static/map-marker.png");
+                  markerUZlatehoLva.setURL("./img/map-marker.png");
                   markerUZlatehoLva.decorate(SMap.Marker.Feature.Card, cardUZlatehoLva);
                   layerMarkers.addMarker(markerUZlatehoLva);
 
                   var optionsURadnice = {title: "Lékárna U Radnice"};
                   var coordsURadnice = SMap.Coords.fromWGS84(17.3015968, 49.3520898)
                   var markerURadnice = new SMap.Marker(coordsURadnice, "myMarker", optionsURadnice);
-                  markerURadnice.setURL("./static/map-marker.png");
+                  markerURadnice.setURL("./img/map-marker.png");
                   markerURadnice.decorate(SMap.Marker.Feature.Card, cardURadnice);
                   layerMarkers2.addMarker(markerURadnice);
 
@@ -332,11 +331,11 @@
 
 
     <!-- js files -->
-    <script src="./static/jquery-1.10.2.min.js"></script>
-    <script src="./static/plugins.js"></script>
-    <script src="./static/bootstrap.min.js"></script>
-    <script src="./static/wow.min.js"></script>
-    <script src="./static/main.js"></script>
+    <script src="./js/jquery-1.10.2.min.js"></script>
+    <script src="./js/plugins.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/main.js"></script>
 
   </body>
 </html>
