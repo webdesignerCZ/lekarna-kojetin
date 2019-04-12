@@ -1,7 +1,12 @@
 
-/* Small devices (tablets, 767px and up) */
+/* Small devices (tablets, 768px and up) */
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
+
+  #home-area .home-content h1 {
+      font-size: 6.5rem;
+  }
+
   .navbar-default .navbar-nav>li.active>a{
       background-color: transparent;
       border-bottom: 3px solid #00c853;
@@ -22,6 +27,19 @@
   }
 }
 
+@media (min-width: 767px) {
+  #home-area::before {
+  background-image: url(../img/section-hero-bg-flowers-tablet.jpg);
+  height: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #home-area::before {
+  background-image: url(../img/section-hero-bg-flowers-desktop.jpg);
+  height: 100%;
+  }
+}
 
 @media (max-width: 767px) {
 
