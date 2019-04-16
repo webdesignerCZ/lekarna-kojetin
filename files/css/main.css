@@ -163,7 +163,7 @@ a:hover {
 }
 
 #home-area::after {
-  background: linear-gradient(45deg, #0400ffc7, #92fe9d)
+  background: linear-gradient(45deg, #0400ffc7, #92fe9d);
   background-position: 50% 50%;
   background-size: cover;
   content: "";
