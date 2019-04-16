@@ -4,11 +4,11 @@
 @media (min-width: 768px) {
 
   #home-area .home-content {
-    max-width: 550px;
+    max-width: 500px;
   }
 
   #home-area .home-content h1 {
-      font-size: 7.5rem;
+      font-size: 6.5rem;
   }
 
   #home-area .home-content .hero-title-divider {
@@ -44,7 +44,7 @@
 
 @media (min-width: 1200px) {
   #home-area::before {
-  background-image: url(../img/section-hero-bg-flowers-desktop.jpg);
+  background-image: url(../img/section-hero-bg-flowers.jpg);
   height: 100%;
   }
 }
