@@ -142,7 +142,7 @@ a:hover {
 ================================================ */
 
 #home-area {
-    /* background: url(../img/section-hero-bg-flowers.jpg) no-repeat; */
+    /* background: url(../img/section-hero-bg-flowers-desktop.jpg) no-repeat; */
     /* background-position: 50% 50%;
     background-size: cover; */
     position: relative;
@@ -162,8 +162,23 @@ a:hover {
   z-index: -2;
 }
 
+#home-area::after {
+  background: linear-gradient(45deg, #0400ffc7, #92fe9d);
+  background-position: 50% 50%;
+  background-size: cover;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
+}
+
 .overlay {
-    background: rgba(40, 41, 32, 0.73);
+    background: rgba(23, 23, 22, 0.44);
 }
 
 #home-area .container {
@@ -173,18 +188,27 @@ a:hover {
 
 #home-area .home-content {
     color: #fff;
+    max-width: 300px;
     padding-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #home-area .home-content h1 {
     font-size: 4rem;
-    padding: 20px 40px;
+    padding: 20px 40px 0px;
     display: inline-block;
-    border-bottom: 2px solid #fff;
     margin-bottom: 0;
     text-transform: capitalize;
+    margin-top: 50px;
     font-weight: 200;
     font-family: 'Sansita', Arial, sans-serif;
+}
+
+#home-area .home-content .hero-title-divider {
+  max-width: 45%;
+  margin: 10px auto;
+  border-top: 2px solid #fff;
 }
 
 #home-area .home-content p {

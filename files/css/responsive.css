@@ -3,8 +3,16 @@
 
 @media (min-width: 768px) {
 
+  #home-area .home-content {
+    max-width: 550px;
+  }
+
   #home-area .home-content h1 {
-      font-size: 6.5rem;
+      font-size: 7.5rem;
+  }
+
+  #home-area .home-content .hero-title-divider {
+    margin: 20px auto 10px auto;
   }
 
   .navbar-default .navbar-nav>li.active>a{
