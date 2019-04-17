@@ -283,6 +283,7 @@ a:hover {
   padding: 40px 28px 30px;
   border: 1px solid #e0e0e0;
   min-height: 210px;
+  border-radius: 10px;
 }
 
 #payment-methods .payment-method-item p{
