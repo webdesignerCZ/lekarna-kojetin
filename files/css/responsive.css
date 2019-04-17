@@ -3,6 +3,11 @@
 
 @media (min-width: 768px) {
 
+  #home-area::before {
+    background-image: url(../img/section-hero-bg-flowers-tablet.jpg);
+    height: 100%;
+  }
+
   #home-area .home-content {
     max-width: 500px;
   }
@@ -33,14 +38,12 @@
       color: #2c2c53;
       border-bottom: 3px solid #00c853;
   }
-}
 
-@media (min-width: 767px) {
-  #home-area::before {
-  background-image: url(../img/section-hero-bg-flowers-tablet.jpg);
-  height: 100%;
+  #payment-methods .payment-method-item p {
+    max-width: 300px;
   }
 }
+/* Medium devices (desktop, 1200px and up) */
 
 @media (min-width: 1200px) {
   #home-area::before {

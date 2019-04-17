@@ -1,3 +1,4 @@
+
 /* COLORS
 primary = #00c853
 primary dark = #00b248
@@ -277,12 +278,17 @@ a:hover {
 
 #payment-methods .payment-method-item {
   color: #00c853;
-  margin: 30px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 40px 28px 30px;
+  border: 1px solid #e0e0e0;
+  min-height: 210px;
 }
 
 #payment-methods .payment-method-item p{
-  margin: 20px 0;
+  margin: 20px auto;
   font-size: 2rem;
+  max-width: 200px;
 }
 
 /* CONTACT US
