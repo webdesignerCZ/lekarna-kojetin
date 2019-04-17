@@ -282,7 +282,7 @@ a:hover {
   background-color: #fff;
   padding: 40px 28px 30px;
   border: 1px solid #e0e0e0;
-  min-height: 210px;
+  min-height: 215px;
   border-radius: 10px;
 }
 
@@ -296,6 +296,8 @@ a:hover {
  ================================================ */
 #contact p {
     font-size: 2rem;
+    max-width: 225px;
+    margin: auto;
 }
 
 #contact a {
@@ -311,6 +313,7 @@ a:hover {
 #contact .contact-info {
     margin-top: 30px;
 }
+
 #contact .contact-info span {
     color: #00c853;
     margin-right: 10px;

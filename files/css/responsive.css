@@ -42,6 +42,10 @@
   #payment-methods .payment-method-item p {
     max-width: 300px;
   }
+
+  #contact p {
+      max-width: 350px;
+  }
 }
 /* Medium devices (desktop, 1200px and up) */
 
