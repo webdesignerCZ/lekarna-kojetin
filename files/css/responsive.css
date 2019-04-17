@@ -43,8 +43,8 @@
     max-width: 300px;
   }
 
-  #contact p:first-child {
-      max-width: 350px;
+  #contact .contact-text {
+    max-width: 350px;
   }
 }
 /* Medium devices (desktop, 1200px and up) */

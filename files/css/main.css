@@ -295,12 +295,12 @@ a:hover {
 /* CONTACT US
  ================================================ */
 #contact p {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
-#contact p:first-child {
-    max-width: 225px;
-    margin: auto;
+#contact .contact-text {
+  max-width: 225px;
+  margin: auto;
 }
 
 #contact a {
@@ -309,17 +309,17 @@ a:hover {
 }
 
 #contact a:hover {
-    color: #00b248;
-    text-decoration: underline;
+  color: #00b248;
+  text-decoration: underline;
 }
 
 #contact .contact-info {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 #contact .contact-info span {
-    color: #00c853;
-    margin-right: 10px;
+  color: #00c853;
+  margin-right: 10px;
 }
 #contact .contact-info span.color-primary {
     color: #333;
