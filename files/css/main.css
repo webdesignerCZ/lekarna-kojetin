@@ -150,7 +150,7 @@ a:hover {
 
 #home-area::before {
   background-image: url(../img/section-hero-bg-flowers-phone.jpg);
-  background-position: 50% 50%;
+  background-position: 50% 100%;
   background-size: cover;
   content: "";
   display: block;
@@ -163,7 +163,7 @@ a:hover {
 }
 
 #home-area::after {
-  background: linear-gradient(45deg, #0400ffc7, #92fe9d);
+  background: linear-gradient(45deg, #5451ffc7, #31f984e6);
   background-position: 50% 50%;
   background-size: cover;
   content: "";
@@ -173,7 +173,7 @@ a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.5;
+  opacity: 1;
   z-index: -1;
 }
 
