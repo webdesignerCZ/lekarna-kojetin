@@ -296,6 +296,9 @@ a:hover {
  ================================================ */
 #contact p {
     font-size: 2rem;
+}
+
+#contact p:first-child {
     max-width: 225px;
     margin: auto;
 }

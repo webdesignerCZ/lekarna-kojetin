@@ -43,7 +43,7 @@
     max-width: 300px;
   }
 
-  #contact p {
+  #contact p:first-child {
       max-width: 350px;
   }
 }
